@@ -2,9 +2,7 @@ class CartsController < ApplicationController
 
   
   def show
-    # product_id = params[:product_id].to_s
-    # @product = Product.find(product_id)
-    # raise @product.inspect   
+ 
   end
   def add_item
     product_id = params[:product_id].to_s
