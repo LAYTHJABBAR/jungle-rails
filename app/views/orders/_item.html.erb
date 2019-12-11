@@ -3,7 +3,6 @@
 <% if product = details.product %>
   <% item_total = details.product.price * quantity %>
   <% @order_total += item_total %>
-
   <tr>
     <td>
       <%= image_tag details.product.image.tiny %>

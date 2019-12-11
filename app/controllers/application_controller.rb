@@ -20,7 +20,6 @@ class ApplicationController < ActionController::Base
   end
   helper_method :cart_subtotal_cents
 
-
   helper_method :current_user
 
   def update_cart(new_cart)
