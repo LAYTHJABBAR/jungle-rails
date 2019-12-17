@@ -35,22 +35,22 @@ RSpec.describe Product, type: :model do
       expect(@product.errors.full_messages.first).to eq("Category can't be blank")
     end
     it "is not valid when price is not exist" do
-        @category = Category.new(name: 'tests')
+      @category = Category.new(name: "tests")
       @product = Product.create(
-        name: 'test',
+        name: "test",
         price_cents: nil,
         quantity: 30,
-        category_id: @category.id
+        category_id: @category.id,
       )
       expect(@product.errors.full_messages.first).to eq("Price cents is not a number")
     end
     it "is not valid when Quantity is not exist" do
-        @category = Category.new(name: 'tests')
+      @category = Category.new(name: "tests")
       @product = Product.create(
-        name: 'test',
+        name: "test",
         price_cents: 20,
         quantity: nil,
-        category_id: @category.id
+        category_id: @category.id,
       )
       expect(@product.errors.full_messages.first).to eq("Quantity can't be blank")
     end
