@@ -1,0 +1,78 @@
+current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/sqlite3-1.4.1/ext/sqlite3
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-20892-qvmgi3.rb extconf.rb
+checking for sqlite3.h... yes
+checking for pthread_create() in -lpthread... yes
+checking for main() in -ldl... yes
+checking for sqlite3_libversion_number() in -lsqlite3... yes
+checking for rb_proc_arity()... yes
+checking for rb_integer_pack()... yes
+checking for sqlite3_initialize()... yes
+checking for sqlite3_backup_init()... yes
+checking for sqlite3_column_database_name()... yes
+checking for sqlite3_enable_load_extension()... yes
+checking for sqlite3_load_extension()... yes
+checking for sqlite3_open_v2()... yes
+checking for sqlite3_prepare_v2()... yes
+checking for sqlite3_int64 in sqlite3.h... yes
+checking for sqlite3_uint64 in sqlite3.h... yes
+creating Makefile
+
+current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/sqlite3-1.4.1/ext/sqlite3
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.015 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/sqlite3-1.4.1/ext/sqlite3
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.0078 s in the future
+compiling sqlite3.c
+compiling backup.c
+compiling database.c
+database.c: In function ‘rb_sqlite3_open_v2’:
+database.c:38:9: warning: unused variable ‘flags’ [-Wunused-variable]
+   VALUE flags;
+         ^
+database.c: In function ‘exec_batch’:
+database.c:724:57: warning: passing argument 3 of ‘sqlite3_exec’ from incompatible pointer type [-Wincompatible-pointer-types]
+     status = sqlite3_exec(ctx->db, StringValuePtr(sql), hash_callback_function, callback_ary, &errMsg);
+                                                         ^
+In file included from ./sqlite3_ruby.h:25:0,
+                 from database.c:1:
+/usr/include/sqlite3.h:385:31: note: expected ‘int (*)(void *, int,  char **, char **)’ but argument is of type ‘int (*)(VALUE,  int,  char **, char **) {aka int (*)(long unsigned int,  int,  char **, char **)}’
+ SQLITE_API int SQLITE_STDCALL sqlite3_exec(
+                               ^
+database.c:724:81: warning: passing argument 4 of ‘sqlite3_exec’ makes pointer from integer without a cast [-Wint-conversion]
+     status = sqlite3_exec(ctx->db, StringValuePtr(sql), hash_callback_function, callback_ary, &errMsg);
+                                                                                 ^
+In file included from ./sqlite3_ruby.h:25:0,
+                 from database.c:1:
+/usr/include/sqlite3.h:385:31: note: expected ‘void *’ but argument is of type ‘VALUE {aka long unsigned int}’
+ SQLITE_API int SQLITE_STDCALL sqlite3_exec(
+                               ^
+database.c:726:57: warning: passing argument 3 of ‘sqlite3_exec’ from incompatible pointer type [-Wincompatible-pointer-types]
+     status = sqlite3_exec(ctx->db, StringValuePtr(sql), regular_callback_function, callback_ary, &errMsg);
+                                                         ^
+In file included from ./sqlite3_ruby.h:25:0,
+                 from database.c:1:
+/usr/include/sqlite3.h:385:31: note: expected ‘int (*)(void *, int,  char **, char **)’ but argument is of type ‘int (*)(VALUE,  int,  char **, char **) {aka int (*)(long unsigned int,  int,  char **, char **)}’
+ SQLITE_API int SQLITE_STDCALL sqlite3_exec(
+                               ^
+database.c:726:84: warning: passing argument 4 of ‘sqlite3_exec’ makes pointer from integer without a cast [-Wint-conversion]
+     status = sqlite3_exec(ctx->db, StringValuePtr(sql), regular_callback_function, callback_ary, &errMsg);
+                                                                                    ^
+In file included from ./sqlite3_ruby.h:25:0,
+                 from database.c:1:
+/usr/include/sqlite3.h:385:31: note: expected ‘void *’ but argument is of type ‘VALUE {aka long unsigned int}’
+ SQLITE_API int SQLITE_STDCALL sqlite3_exec(
+                               ^
+compiling aggregator.c
+compiling exception.c
+compiling statement.c
+linking shared-object sqlite3/sqlite3_native.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/sqlite3-1.4.1/ext/sqlite3
+make "DESTDIR=" install
+make: Warning: File 'sqlite3_native.so' has modification time 0.018 s in the future
+/usr/bin/install -m 0755 sqlite3_native.so ./.gem.20191217-20892-n560um/sqlite3
+make: warning:  Clock skew detected.  Your build may be incomplete.

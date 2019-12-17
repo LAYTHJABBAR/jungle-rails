@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-ruby "2.3.5"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -47,6 +46,9 @@ group :development, :test do
   gem 'quiet_assets'
   gem 'dotenv-rails'
   gem 'rspec-rails', '~> 3.5'
+  gem 'poltergeist'
+  gem 'capybara'
+  gem 'database_cleaner'
 end
 
 group :development do

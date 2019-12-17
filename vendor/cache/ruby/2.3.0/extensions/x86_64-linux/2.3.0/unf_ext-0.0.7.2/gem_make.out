@@ -1,0 +1,24 @@
+current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-20892-16oyvpo.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.015 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.0076 s in the future
+compiling unf.cc
+cc1plus: warning: command line option ‘-Wdeclaration-after-statement’ is valid for C/ObjC but not for C++
+cc1plus: warning: command line option ‘-Wimplicit-function-declaration’ is valid for C/ObjC but not for C++
+linking shared-object unf_ext.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR=" install
+make: Warning: File 'unf_ext.so' has modification time 0.018 s in the future
+/usr/bin/install -m 0755 unf_ext.so ./.gem.20191217-20892-1d3wh63
+make: warning:  Clock skew detected.  Your build may be incomplete.
