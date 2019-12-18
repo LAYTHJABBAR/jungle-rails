@@ -27,7 +27,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
  
 
 
-### capybara and poltergeist Testing
+## capybara and poltergeist Testing
 
 Built-in [Capybara](https://teamcapybara.github.io/capybara/) test coverage.
 
@@ -35,8 +35,12 @@ Built-in [Capybara](https://teamcapybara.github.io/capybara/) test coverage.
 
 
 ## App Specification
+* login Authentication for Admin Drop List
 !["login Authentication for Admin Drop List"](https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/adminlogin.png?raw=true)
-!["Ability to add a new categories and productes to the lists by admin](https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/new_product.png?raw=true)
+* Ability to add a new categories and productes to the lists by admin
+!["Ability to add a new categories and productes to the lists by admin"](https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/new_product.png?raw=true)
+* sold add tag to the top of the products if there is no more items on the store
+!["sold add tag to the top of the products if there is no more items on the store"](https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/sold_out_tag.png?raw=true)
 ## Dependencies
 please be sure to have them installed before running the app.
 Install dependencies with `bundle install`.
