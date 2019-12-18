@@ -35,6 +35,20 @@ Built-in [Capybara](https://teamcapybara.github.io/capybara/) test coverage.
 
 
 ## App Specification
+### Feature: Sold Out Badge
+* When a product has 0 quantity, a sold out badge should be displayed on the product list page
+* Should ideally be implemented as a question/boolean method in view helper and/or Product model
+### Feature: Admin Categories
+* Admin users can list and create new categories
+* Admins can add new products using the new category
+* Restful routes (resources) should be used, and there should be no extra, unused routes exposed
+### Feature: User Authentication
+* As a Visitor I can go to the registration page from any page in order to create an account
+* As a Visitor I can sign up for a user account with my e-mail, password, first name and last name
+* As a Visitor I can sign in using my e-mail and password
+* As a User I can log out from any page
+* As a User I cannot sign up with an existing e-mail address (uniqueness validation)
+* Passwords are not stored as plain text in the database. Instead, has_secure_password is used in the User  
 * login Authentication for Admin Drop List
 !["login Authentication for Admin Drop List"](https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/adminlogin.png?raw=true)
 * Ability to add a new categories and productes to the lists by admin
