@@ -1,5 +1,5 @@
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/puma-3.5.2/ext/puma_http11
-/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-20892-48ke65.rb extconf.rb
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-21952-q82e0i.rb extconf.rb
 checking for BIO_read() in -lcrypto... yes
 checking for SSL_CTX_new() in -lssl... yes
 checking for openssl/bio.h... yes
@@ -7,12 +7,9 @@ creating Makefile
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/puma-3.5.2/ext/puma_http11
 make "DESTDIR=" clean
-make: Warning: File 'Makefile' has modification time 0.016 s in the future
-make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/puma-3.5.2/ext/puma_http11
 make "DESTDIR="
-make: Warning: File 'Makefile' has modification time 0.009 s in the future
 compiling puma_http11.c
 compiling io_buffer.c
 compiling http11_parser.c
@@ -28,10 +25,7 @@ mini_ssl.c:165:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclar
    EC_KEY *ecdh = EC_KEY_new_by_curve_name(NID_secp521r1);
    ^
 linking shared-object puma/puma_http11.so
-make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/puma-3.5.2/ext/puma_http11
 make "DESTDIR=" install
-make: Warning: File 'puma_http11.so' has modification time 0.018 s in the future
-/usr/bin/install -m 0755 puma_http11.so ./.gem.20191217-20892-1ccn3xy/puma
-make: warning:  Clock skew detected.  Your build may be incomplete.
+/usr/bin/install -m 0755 puma_http11.so ./.gem.20191218-21952-1mxu0n5/puma

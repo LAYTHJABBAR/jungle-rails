@@ -1,25 +1,19 @@
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
-/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-20892-1n6t1a5.rb extconf.rb
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-21952-txe9ab.rb extconf.rb
 creating Makefile
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR=" clean
-make: Warning: File 'Makefile' has modification time 0.018 s in the future
-make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR="
-make: Warning: File 'Makefile' has modification time 0.011 s in the future
 compiling crypt_blowfish.c
 compiling crypt.c
 compiling wrapper.c
 compiling crypt_gensalt.c
 compiling bcrypt_ext.c
 linking shared-object bcrypt_ext.so
-make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/bcrypt-3.1.11/ext/mri
 make "DESTDIR=" install
-make: Warning: File 'bcrypt_ext.so' has modification time 0.019 s in the future
-/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20191217-20892-few6zg
-make: warning:  Clock skew detected.  Your build may be incomplete.
+/usr/bin/install -m 0755 bcrypt_ext.so ./.gem.20191218-21952-1p05nmg

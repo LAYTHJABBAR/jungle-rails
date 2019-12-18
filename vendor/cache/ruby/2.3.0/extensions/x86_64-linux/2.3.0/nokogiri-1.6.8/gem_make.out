@@ -1,5 +1,5 @@
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri
-/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-20892-1ykwmai.rb extconf.rb
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-21952-w5ori0.rb extconf.rb
 Using pkg-config version 1.1.7
 checking if the C compiler accepts ... yes
 Building nokogiri using packaged libraries.
@@ -72,12 +72,9 @@ creating Makefile
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri
 make "DESTDIR=" clean
-make: Warning: File 'Makefile' has modification time 0.013 s in the future
-make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri
 make "DESTDIR="
-make: Warning: File 'Makefile' has modification time 0.0027 s in the future
 compiling xslt_stylesheet.c
 In file included from /home/vagrant/.rvm/rubies/ruby-2.3.5/include/ruby-2.3.0/ruby.h:33:0,
                  from ./nokogiri.h:33,
@@ -249,8 +246,7 @@ Using pkg-config version 1.1.7
 Cleaning files only used during build.
 rm -rf /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri/tmp/x86_64-pc-linux-gnu/ports
 rm -rf /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/nokogiri-1.6.8/ports
-make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/nokogiri-1.6.8/ext/nokogiri
 make "DESTDIR=" install
-/usr/bin/install -m 0755 nokogiri.so ./.gem.20191217-20892-3qwwrx/nokogiri
+/usr/bin/install -m 0755 nokogiri.so ./.gem.20191218-21952-1febbgt/nokogiri

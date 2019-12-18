@@ -1,5 +1,5 @@
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/pg-0.18.4/ext
-/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191217-20892-1egs717.rb extconf.rb
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-21952-xsnvc6.rb extconf.rb
 checking for pg_config... yes
 Using config values from /usr/bin/pg_config
 checking for libpq-fe.h... yes
@@ -44,12 +44,9 @@ creating Makefile
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/pg-0.18.4/ext
 make "DESTDIR=" clean
-make: Warning: File 'Makefile' has modification time 0.015 s in the future
-make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/pg-0.18.4/ext
 make "DESTDIR="
-make: Warning: File 'Makefile' has modification time 0.0069 s in the future
 compiling pg_type_map_all_strings.c
 compiling pg_type_map_in_ruby.c
 compiling pg_text_decoder.c
@@ -74,10 +71,7 @@ compiling pg_type_map_by_column.c
 compiling pg_errors.c
 compiling pg_binary_encoder.c
 linking shared-object pg_ext.so
-make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/pg-0.18.4/ext
 make "DESTDIR=" install
-make: Warning: File 'pg_ext.so' has modification time 0.016 s in the future
-/usr/bin/install -m 0755 pg_ext.so ./.gem.20191217-20892-ft76p9
-make: warning:  Clock skew detected.  Your build may be incomplete.
+/usr/bin/install -m 0755 pg_ext.so ./.gem.20191218-21952-drqq2o
