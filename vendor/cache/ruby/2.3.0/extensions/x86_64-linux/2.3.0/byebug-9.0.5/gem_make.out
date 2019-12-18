@@ -1,19 +1,25 @@
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug
-/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-21952-ory8mk.rb extconf.rb
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-12382-1n0dbn0.rb extconf.rb
 creating Makefile
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug
 make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.016 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug
 make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.0085 s in the future
 compiling byebug.c
 compiling breakpoint.c
 compiling threads.c
 compiling locker.c
 compiling context.c
 linking shared-object byebug/byebug.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/byebug-9.0.5/ext/byebug
 make "DESTDIR=" install
-/usr/bin/install -m 0755 byebug.so ./.gem.20191218-21952-1hmhjcc/byebug
+make: Warning: File 'byebug.so' has modification time 0.015 s in the future
+/usr/bin/install -m 0755 byebug.so ./.gem.20191218-12382-pls6u4/byebug
+make: warning:  Clock skew detected.  Your build may be incomplete.

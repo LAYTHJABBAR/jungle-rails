@@ -1,5 +1,5 @@
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/rmagick-2.15.4/ext/RMagick
-/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-21952-v3oxrn.rb extconf.rb
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-12382-nkiiuk.rb extconf.rb
 checking for gcc... yes
 checking for Magick-config... no
 checking for pkg-config... yes
@@ -129,7 +129,7 @@ creating Makefile
 
 
 ======================================================================
-Wed 18Dec19 01:24:21
+Wed 18Dec19 04:33:46
 This installation of RMagick 2.15.4 is configured for
 Ruby 2.3.5 (x86_64-linux) and ImageMagick 6.8.9
 ======================================================================
@@ -139,9 +139,12 @@ Configured compile options: {:magick_config=>false, :pkg_config=>true, :magick_v
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/rmagick-2.15.4/ext/RMagick
 make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.0086 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/rmagick-2.15.4/ext/RMagick
 make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.0018 s in the future
 compiling rmfill.c
 compiling rmmain.c
 compiling rminfo.c
@@ -179,7 +182,10 @@ compiling rmilist.c
 compiling rmstruct.c
 compiling rmpixel.c
 linking shared-object RMagick2.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/rmagick-2.15.4/ext/RMagick
 make "DESTDIR=" install
-/usr/bin/install -m 0755 RMagick2.so ./.gem.20191218-21952-p0mpfz
+make: Warning: File 'RMagick2.so' has modification time 0.016 s in the future
+/usr/bin/install -m 0755 RMagick2.so ./.gem.20191218-12382-qam61s
+make: warning:  Clock skew detected.  Your build may be incomplete.

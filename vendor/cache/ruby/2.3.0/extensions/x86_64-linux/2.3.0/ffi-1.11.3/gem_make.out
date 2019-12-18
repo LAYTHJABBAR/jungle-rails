@@ -1,5 +1,5 @@
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/ffi-1.11.3/ext/ffi_c
-/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-6650-1dm2spk.rb extconf.rb
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-12382-17oxuvz.rb extconf.rb
 checking for ffi_call() in -lffi... yes
 checking for ffi_closure_alloc()... yes
 checking for shlwapi.h... no
@@ -14,9 +14,12 @@ creating Makefile
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/ffi-1.11.3/ext/ffi_c
 make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.014 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/ffi-1.11.3/ext/ffi_c
 make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.0064 s in the future
 compiling AbstractMemory.c
 compiling MappedType.c
 compiling ClosurePool.c
@@ -41,7 +44,10 @@ compiling DynamicLibrary.c
 compiling Call.c
 compiling MemoryPointer.c
 linking shared-object ffi_c.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/ffi-1.11.3/ext/ffi_c
 make "DESTDIR=" install
-/usr/bin/install -m 0755 ffi_c.so ./.gem.20191218-6650-i2dipf
+make: Warning: File 'ffi_c.so' has modification time 0.013 s in the future
+/usr/bin/install -m 0755 ffi_c.so ./.gem.20191218-12382-xk2y3y
+make: warning:  Clock skew detected.  Your build may be incomplete.

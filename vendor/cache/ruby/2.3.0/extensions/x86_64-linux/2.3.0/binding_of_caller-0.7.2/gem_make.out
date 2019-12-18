@@ -1,16 +1,21 @@
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
-/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-21952-1ayq2k0.rb extconf.rb
+/home/vagrant/.rvm/rubies/ruby-2.3.5/bin/ruby -r ./siteconf20191218-12382-ittd26.rb extconf.rb
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
 make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 0.015 s in the future
 make: *** No rule to make target 'clean'.  Stop.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
 make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 0.012 s in the future
 echo "Nada."
 Nada.
+make: warning:  Clock skew detected.  Your build may be incomplete.
 
 current directory: /vagrant/W9/D3/jungle-rails/vendor/cache/ruby/2.3.0/gems/binding_of_caller-0.7.2/ext/binding_of_caller
 make "DESTDIR=" install
+make: Warning: File 'Makefile' has modification time 0.0077 s in the future
 echo "Nada."
 Nada.
+make: warning:  Clock skew detected.  Your build may be incomplete.
