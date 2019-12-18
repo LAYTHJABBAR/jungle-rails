@@ -1,8 +1,7 @@
 # Jungle
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
-
-
+ 
 ## Setup
 
 1. Run `bundle install` to install dependencies
@@ -25,3 +24,21 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 * Rails 4.2 [Rails Guide](http://guides.rubyonrails.org/v4.2/)
 * PostgreSQL 9.x
 * Stripe
+ 
+
+
+### capybara and poltergeist Testing
+
+Built-in [Capybara](https://teamcapybara.github.io/capybara/) test coverage.
+
+!["capybara test for product-list-login-and adding products to cart"](https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/admin-Dashboard.png?raw=true)
+(https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/adminlogin.png?raw=true)
+(https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/new_product.png?raw=true)
+
+
+## Dependencies
+please be sure to have them installed before running the app.
+Install dependencies with `bundle install`.
+
+
+ 
