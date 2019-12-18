@@ -40,7 +40,7 @@ Built-in [Capybara](https://teamcapybara.github.io/capybara/) test coverage.
 * Ability to add a new categories and productes to the lists by admin
 !["Ability to add a new categories and productes to the lists by admin"](https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/new_product.png?raw=true)
 * sold add tag to the top of the products if there is no more items on the store
-!["sold add tag to the top of the products if there is no more items on the store"](https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/sold_out_tag.png?raw=true)
+!["sold-out tag to the top of the products if there is no more items on the store"](https://github.com/LAYTHJABBAR/jungle-rails/blob/master/docs/sold_out_tag.png?raw=true)
 ## Dependencies
 please be sure to have them installed before running the app.
 Install dependencies with `bundle install`.
